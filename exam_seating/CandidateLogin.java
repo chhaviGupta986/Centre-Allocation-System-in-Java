@@ -18,7 +18,7 @@ public class CandidateLogin extends JFrame implements ActionListener{
         
         JPanel panel = new JPanel();
         panel.setBounds(30, 30, 650, 300);
-        panel.setBorder(new TitledBorder(new LineBorder(new Color(0,0,255), 2), "Login Page", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(172, 216, 230)));
+        panel.setBorder(new TitledBorder(new LineBorder(new Color(0,0,255), 2), "Login Page", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0,0,200)));
         panel.setBackground(Color.WHITE);
         panel.setLayout(null);
         panel.setForeground(new Color(34, 139, 34));

@@ -3,46 +3,54 @@ import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
-
+// TRIAL 1
 class Home extends JFrame implements ActionListener{
     JButton admin_login, candi_regis,candi_login;
     JFrame f;
-
+    JLabel l;
     Home(){
-
+        setTitle("CENTRE ALLOTMENT PORTAL");
         setBounds(105, 105, 700, 400);
 
         setLayout(new GridLayout());
         setVisible(true);
-
+        ImageIcon i = new ImageIcon("D:/sem 3/OOPM/oop project/exam_seating/background.jpg");
+        setVisible(true);
+        l = new JLabel( i);
         
-        JPanel panel1 = new JPanel();
-        panel1.setBounds(30, 30, 650, 300);
-        panel1.setBorder(new TitledBorder(new LineBorder(new Color(0,0,255), 2), "Home Page", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(172, 216, 230)));
-        panel1.setBackground(new Color(0,0,255));
-        add(panel1);
+
+        l.setBounds(30, 30, 650, 300);
+        l.setBorder(new TitledBorder(new LineBorder(new Color(0,150,0), 2), " HOME PAGE  ", TitledBorder.LEADING, TitledBorder.TOP,null,new Color(0, 0, 0)));
+
+        add(l);
+        
 
         //ADMIN LOGIN BUTTON
+        setVisible(true);
         admin_login = new JButton("Admin Login");
         admin_login.setBackground(Color.BLACK);
         admin_login.setForeground(Color.WHITE);
-        admin_login.setBounds(10, 20, 120, 25);
+        admin_login.setBounds(10, 30, 120, 25);
         admin_login.addActionListener(this);
-        panel1.add(admin_login);
+
+        l.add(admin_login);
         //CANDIDATE REGISTER BUTTON
         candi_regis = new JButton("Candidate Register");
         candi_regis.setBackground(Color.BLACK);
         candi_regis.setForeground(Color.WHITE);
-        candi_regis.setBounds(170, 20, 150, 25);
+        candi_regis.setBounds(170, 30, 150, 25);
         candi_regis.addActionListener(this);
-        panel1.add(candi_regis);
+        l.add(candi_regis);
+        
         //CANDIDATE LOGIN
         candi_login = new JButton("Candidate Login");
         candi_login.setBackground(Color.BLACK);
         candi_login.setForeground(Color.WHITE);
-        candi_login.setBounds(350, 20, 170, 25);
+        candi_login.setBounds(350, 30, 170, 25);
         candi_login.addActionListener(this);
-        panel1.add(candi_login);
+        l.add(candi_login);
+
+        
     }
     public void actionPerformed(ActionEvent ae) {
         if (ae.getSource() == admin_login) {
@@ -82,7 +90,7 @@ class AdminLogin extends JFrame implements ActionListener{
         
         JPanel panel = new JPanel();
         panel.setBounds(30, 30, 650, 300);
-        panel.setBorder(new TitledBorder(new LineBorder(new Color(0, 0, 255), 2), "Admin Account", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(172, 216, 230)));
+        panel.setBorder(new TitledBorder(new LineBorder(new Color(0, 0, 255), 2), "Admin Account", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0,0,200)));
         panel.setBackground(Color.WHITE);
         panel.setLayout(null);
         panel.setForeground(new Color(34, 139, 34));
@@ -218,5 +226,5 @@ class Admin_success extends JFrame implements ActionListener {
 public class Main{
     public Main(){
         new Home();
-
-}}
+    }
+}
