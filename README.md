@@ -19,12 +19,12 @@
 
 <img width="514" alt="3 1" src="https://user-images.githubusercontent.com/94625954/216759526-b14b9e32-6710-4daa-b8b8-4015a59eccc8.PNG">
 
-![3 2](https://user-images.githubusercontent.com/94625954/216759527-fc7a10c0-6055-4f18-b1e9-3b7f1d88d6f5.png)
+<img width="455" alt="3 2" src="https://user-images.githubusercontent.com/94625954/216759756-8ce8dbe3-6ed4-46ce-964f-6ce734fbc57b.png">
 
 <img width="515" alt="4" src="https://user-images.githubusercontent.com/94625954/216759531-66524895-34d1-4ec7-a382-f3f6f7399da6.PNG">
 
 <img width="513" alt="5 1" src="https://user-images.githubusercontent.com/94625954/216759532-38bda7ad-6239-4e28-a258-c09672d3c428.PNG">
 
-![5 2](https://user-images.githubusercontent.com/94625954/216759533-216f113b-d661-4081-bac3-dc1dcccb1831.png)
+<img width="320" alt="5 2" src="https://user-images.githubusercontent.com/94625954/216759766-7b592244-fa8f-45a0-84bc-d5e8129ce3bb.png">
 
 <img width="363" alt="6" src="https://user-images.githubusercontent.com/94625954/216759534-c5176bc4-080e-4df9-8327-bf7f09a76720.PNG">
