@@ -1,17 +1,62 @@
-# Centre-allocation-system
--> To simplify examination hall allotment and seating arrangement for a local/state level competitive exam, we have built a portal which handles this process. 
+# 🎓Centre Allocation System
 
--> Using this portal, Administrator can register the institutes that are willing to provide themselves as a venue to conduct this examination, by manually entering in the institute details such as Institute name, Location of institute and Capacity of institute (capacity refers to no. of candidates that can be accommodated).
+The Centre Allocation System is a Java-based portal designed to simplify the examination hall allotment and seating arrangement for local or state-level competitive exams.
 
--> Once the institute registration process is completed, the Candidate registration process will commence. 
+## Table of Contents
+- [📄 Introduction](#introduction)
+- [✨ Features](#features)
+- [⚙️ Installation](#installation)
+- [📝 Usage](#usage)
+- [🤝 Contributing](#contributing)
 
--> During registration of a candidate, they will be asked to enter their top 3 location preferences for the exam venue. For example, a student may select the location nearest to his/her house as the first preference. 
+## Introduction
+The Centre Allocation System streamlines the process of allocating examination centers and seating arrangements. Administrators can register institutes as venues for exams, and candidates can select their preferred locations during registration.
 
--> Student will be allocated a center as well as a unique roll number immediately after registration. 
+## Features
+- **🏫 Institute Registration**: Administrators can register institutes by entering details such as institute name, location, and capacity.
+- **📝 Candidate Registration**: Candidates can register by providing their top 3 location preferences for the exam venue.
+- **📍Automatic Center Allocation**: Candidates receive a center allocation and a unique roll number immediately after registration based on factors such as availability of centres in the location, first come first serve basis etc.
+- **🔐 Student Login**: Students can log in to view their allocated center and roll number.
+- **👩‍💼 Admin View**: Administrators can view the list of students allocated to each institute.
 
--> Student can login anytime into their account and view these details. 
+## Installation
+1. **📥 Clone the repository**:
+    ```sh
+    git clone https://github.com/chhaviGupta986/Centre-Allocation-System-in-Java.git
+    cd Centre-Allocation-System-in-Java
+    ```
 
--> A list of students allocated to a given institute will be generated for each institute and Admin will have the option to view these lists.
+2. **🔧 Set up the environment**:
+    Ensure you have Java Development Kit (JDK) installed. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+3. **🛠 Compile the project**:
+    ```sh
+    javac -d bin Exam_Centre_Allocation.java exam_seating/*.java
+    ```
+
+4. **🚀 Run the project**:
+    ```sh
+    java -cp bin Exam_Centre_Allocation
+    ```
+
+## Usage
+1. **🔑 Administrator Functions**:
+    - Register institutes by providing details such as name, location, and capacity.
+    - View the list of students allocated to each institute.
+
+2. **👩‍🎓 Candidate Functions**:
+    - Register by providing personal details and top 3 location preferences.
+    - Log in to view allocated center and roll number.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
 
 <img width="516" alt="1" src="https://user-images.githubusercontent.com/94625954/216759522-e2378275-3eb5-4091-82af-3b62335adcaf.PNG">
 
